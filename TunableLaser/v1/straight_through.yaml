@@ -1,0 +1,5 @@
+port: /dev/ttyACM0
+wavelength:
+  min: 300
+  max: 1100
+optical_configuration: "straight-through"
