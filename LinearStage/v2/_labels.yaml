@@ -1,0 +1,4 @@
+# Labels for recommended settings; a dict of label: config_file
+zaber: "ZaberLST-20201113_v2.yaml"
+igus: "IgusDryveStepper-20201113_v2.yaml"
+

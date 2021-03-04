@@ -1,0 +1,2 @@
+port: "/dev/ttyLinearStage1"
+address: 1
