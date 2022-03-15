@@ -1,0 +1,13 @@
+# Ticket used to create this file: DM-31634
+# Date created: 2022-01-26
+# Description: Configures socket connection to Igus Dryve v1 controller (drive 2) which controls the Y-axis. 
+#              Now on the TTS network.
+
+stage_type: "Igus"
+socket_port: 502
+socket_address: "igusYaxis.tu.lsst.org"
+feed_rate: 150
+maximum_stroke: 1500  # TBR
+target_position_minimum: 5 # don't go to zero as this is the limit switch and it will cause issues
+target_position_maximum: 1495 # TBR
+
