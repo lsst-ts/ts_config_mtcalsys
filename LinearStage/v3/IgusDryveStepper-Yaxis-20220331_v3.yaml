@@ -5,7 +5,7 @@
 stage_type: "Igus"
 socket_port: 502
 socket_address: "igusYaxis.tu.lsst.org"
-feed_rate: 150
+feed_rate: 50.02 #as measured by Patrick 
 homing_speed: 20
 homing_acceleration: 3
 homing_timeout: 150
