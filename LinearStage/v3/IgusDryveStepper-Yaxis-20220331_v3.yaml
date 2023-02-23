@@ -2,9 +2,9 @@
 # Date created: 2022-03-31
 # Description: Updated to support new configuration schema
 
-stage_type: "Igus"
+stage_type: Igus
 socket_port: 502
-socket_address: "igusYaxis.tu.lsst.org"
+socket_address: igusYaxis.tu.lsst.org
 feed_rate: 150
 homing_speed: 20
 homing_acceleration: 3

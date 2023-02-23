@@ -3,9 +3,9 @@
 # Description: Configures socket connection to Igus Dryve v1 controller (drive 1) that controls the X-axis. 
 #              Now on the TTS network.
 
-stage_type: "Igus"
+stage_type: Igus
 socket_port: 502
-socket_address: "igusXaxis.tu.lsst.org"
+socket_address: igusXaxis.tu.lsst.org
 feed_rate: 70
 homing_speed: 20
 homing_acceleration: 3

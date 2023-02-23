@@ -3,13 +3,12 @@
 # Description: Updated v1 version to v2 format. This is a serial port (USB) connection.
 
 # For Zaber
-stage_type: "Zaber"
+stage_type: Zaber
 daisy_chain_address: 1
-serial_port: "/dev/ttyLinearStage1"
+serial_port: /dev/ttyLinearStage1
 steps_per_mm: 8000
 
-# For Igus
-stage_type: "Igus"
+stage_type: Igus
 socket_port: 999
 socket_address: 127.0.0.1
 feed_rate: 99
