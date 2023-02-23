@@ -32,7 +32,7 @@ class ConfigTestCase(salobj.BaseConfigTestCase, unittest.TestCase):
     def test_CBP(self):
         self.check_standard_config_files(
             sal_name="CBP",
-            module_name="lsst.ts.cbp.config_schema",
+            module_name="lsst.ts.cbp",
             schema_name="CONFIG_SCHEMA",
             config_package_root=self.config_package_root,
         )
@@ -40,7 +40,7 @@ class ConfigTestCase(salobj.BaseConfigTestCase, unittest.TestCase):
     def test_LinearStage(self):
         self.check_standard_config_files(
             sal_name="LinearStage",
-            module_name="lsst.ts.LinearStage.config_schema",
+            module_name="lsst.ts.linearstage",
             schema_name="CONFIG_SCHEMA",
             config_package_root=self.config_package_root,
         )

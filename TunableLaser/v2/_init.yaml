@@ -1,0 +1,14 @@
+port: 9999
+wavelength:
+  min: 300
+  max: 1100
+optical_configuration: F1
+timeout: 1
+thermal_scanner_port: /dev/ttyUSB1
+thermal_scanner_baudrate: 19200
+thermal_scanner_channels:
+  c01: ""
+  c02: ""
+  c03: ""
+  c04: ""
+  c05: ""
