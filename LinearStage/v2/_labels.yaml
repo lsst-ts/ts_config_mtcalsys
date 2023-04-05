@@ -1,4 +1,0 @@
-# Labels for recommended settings; a dict of label: config_file
-zaber: "ZaberLST-20201113_v2.yaml"
-igusY: "IgusDryveStepper-Yaxis-20220126_v2.yaml"
-igusX: "IgusDryveStepper-Xaxis-20220126_v2.yaml"
