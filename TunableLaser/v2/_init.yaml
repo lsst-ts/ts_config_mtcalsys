@@ -1,7 +1,7 @@
 port: 9999
 wavelength:
   min: 300
-  max: 1100
+  max: 1250
 optical_configuration: F1
 timeout: 1
 thermal_scanner_port: /dev/ttyUSB1
