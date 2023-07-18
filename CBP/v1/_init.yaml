@@ -1,4 +1,4 @@
-address: localhost
+address: cbp.tu.lsst.org 
 port: 9999
 mask1:
     name: mask 1
