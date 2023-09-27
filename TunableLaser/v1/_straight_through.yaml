@@ -1,6 +1,7 @@
-port: 9999
+host: lan2laserElectrometer5.tu.lsst.org
+port: 4001
 wavelength:
   min: 300
-  max: 1100
-optical_configuration: "straight-through"
+  max: 1250
+optical_configuration: straight-through
 timeout: 1
