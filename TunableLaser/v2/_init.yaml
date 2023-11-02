@@ -1,3 +1,4 @@
+type: Stubbs
 host: lan2laserElectrometer5.tu.lsst.org
 port: 4001
 wavelength:
