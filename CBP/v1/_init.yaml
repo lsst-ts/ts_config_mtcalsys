@@ -1,8 +1,8 @@
-address: localhost
+address: cbp.tu.lsst.org 
 port: 9999
 mask1:
     name: mask 1
-    rotation: 30
+    rotation: 230 
 mask2:
     name: mask 2
     rotation: 60
@@ -15,3 +15,5 @@ mask4:
 mask5:
     name: mask 5
     rotation: 150
+encoder_tolerance: 0.1
+focus_crosstalk: 0.4

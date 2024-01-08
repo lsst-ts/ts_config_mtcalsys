@@ -1,0 +1,16 @@
+type: Stubbs
+host: lan2laserElectrometer5.tu.lsst.org
+port: 4001
+wavelength:
+  min: 300
+  max: 1250
+optical_configuration: straight-through
+timeout: 1
+#thermal_scanner_port: /dev/ttyUSB1
+#thermal_scanner_baudrate: 19200
+#thermal_scanner_channels:
+#  c01: ""
+#  c02: ""
+#  c03: ""
+#  c04: ""
+#  c05: ""

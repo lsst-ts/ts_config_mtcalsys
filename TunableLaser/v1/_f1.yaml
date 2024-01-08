@@ -3,5 +3,5 @@ port: 4001
 wavelength:
   min: 300
   max: 1250
-optical_configuration: f2
+optical_configuration: f1
 timeout: 1
