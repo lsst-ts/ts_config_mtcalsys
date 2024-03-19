@@ -1,5 +1,5 @@
-type: Stubbs
-host: lab-laser.tu.lsst.org
+type: Main 
+host: laser-control.cp.lsst.org 
 port: 4001
 wavelength:
   min: 300
@@ -7,8 +7,8 @@ wavelength:
 optical_configuration: straight-through
 timeout: 1
 temp_ctrl:
-  host: asdf
-  port: 502
+  host: 127.0.0.1
+  port: 50
 #thermal_scanner_port: /dev/ttyUSB1
 #thermal_scanner_baudrate: 19200
 #thermal_scanner_channels:
