@@ -1,0 +1,12 @@
+type: Main
+host: laser-control.cp.lsst.org
+port: 4001
+wavelength:
+  min: 300
+  max: 1250
+optical_configuration: straight-through
+timeout: 1
+temp_ctrl:
+  host: laser-control.cp.lsst.org
+  port: 4002
+  
