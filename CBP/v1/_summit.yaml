@@ -1,20 +1,20 @@
-address: cbp.tu.lsst.org 
+address: cbp.cp.lsst.org 
 port: 9999
 mask1:
     name: mask 1
-    rotation: 230 
+    rotation: 360
 mask2:
     name: mask 2
-    rotation: 60
+    rotation: 360
 mask3:
     name: mask 3
-    rotation: 90
+    rotation: 360
 mask4:
     name: mask 4
-    rotation: 120
+    rotation: 360
 mask5:
     name: mask 5
-    rotation: 150
+    rotation: 360
 encoder_tolerance: 0.1
 focus_crosstalk: 0.4
 
