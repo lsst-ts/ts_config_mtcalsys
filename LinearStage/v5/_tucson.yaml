@@ -36,7 +36,35 @@ instances:
     stage_type: ZaberV2
     stage_config:
       daisy_chain_address: 1
+      stage_name: X-MCC4
       hostname: "flatfieldprojectorctrl.tu.lsst.org"
       port: 4001
     target_position_minimum: 3 # don't go to zero as this is the limit switch and it will cause issues
     target_position_maximum: 70
+  - sal_index: 4
+    stage_type: ZaberV2
+    stage_config: 
+      daisy_chain_address: 2 
+      stage_name: LEDSelector
+      hostname: "flatfieldprojectorctrl.tu.lsst.org"
+      port: 4001
+    target_position_minimum: 3 # don't go to zero as this is the limit switch and it will cause issues
+    target_position_maximum: 300
+  - sal_index: 5
+    stage_type: ZaberV2
+    stage_config:
+      daisy_chain_address: 3
+      stage_name: VerticalSelector
+      hostname: "flatfieldprojectorctrl.tu.lsst.org"
+      port: 4001
+    target_position_minimum: 3 # don't go to zero as this is the limit switch and it will cause issues
+    target_position_maximum: 150
+  - sal_index: 6
+    stage_type: ZaberV2
+    stage_config:
+      daisy_chain_address: 4
+      stage_name: LEDFocus
+      hostname: "flatfieldprojectorctrl.tu.lsst.org"
+      port: 4001
+    target_position_minimum: 3 # don't go to zero as this is the limit switch and it will cause issues
+    target_position_maximum: 50
