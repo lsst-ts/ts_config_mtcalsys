@@ -37,6 +37,6 @@ instances:
     stage_config:
       daisy_chain_address: 1
       hostname: "flatfieldprojectorctrl.tu.lsst.org"
-      port: 4001
+      port: 4003
     target_position_minimum: 3 # don't go to zero as this is the limit switch and it will cause issues
     target_position_maximum: 70
