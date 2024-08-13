@@ -1,4 +1,4 @@
-device_type: T7
+device_type: T4
 connection_type: TCP
 identifier: ledprojectorlj.tu.lsst.org
 topics:
