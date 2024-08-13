@@ -1,11 +1,1 @@
-device_type: T4
-connection_type: TCP
-identifier: 127.0.0.1
-topics:
-  - topic_name: ledControllerItem
-    sensor_name: local_ljm
-    led_names: [M375L4]
-    channel_names: [FIO7]
-    dac_mapping: [DAC0]
-    location: local_network
-
+# init configuration 
