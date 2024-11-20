@@ -1,20 +1,17 @@
 address: cbp.cp.lsst.org 
 port: 9999
 mask1:
-    name: mask 1
+    name: 1mm-pinhole
     rotation: 360
 mask2:
-    name: mask 2
+    name: 2-lines
     rotation: 360
 mask3:
-    name: mask 3
+    name: empty
     rotation: 360
 mask4:
-    name: mask 4
+    name: one-per-CCD
     rotation: 360
 mask5:
-    name: mask 5
+    name: one-per-amp
     rotation: 360
-encoder_tolerance: 0.1
-focus_crosstalk: 0.4
-
