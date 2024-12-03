@@ -1,0 +1,1 @@
+Updated CBP configuration with the names of the masks for ComCam
