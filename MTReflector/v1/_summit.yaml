@@ -1,0 +1,8 @@
+device_type: T4
+connection_type: TCP
+identifier: 127.0.0.1
+topics:
+  - sensor_name: local_ljm
+    channel_name: FIO7
+    location: local_network
+    topic_name: local
