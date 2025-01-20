@@ -52,3 +52,11 @@ class ConfigTestCase(salobj.BaseConfigTestCase, unittest.TestCase):
             schema_name="CONFIG_SCHEMA",
             config_package_root=self.config_package_root,
         )
+
+    def test_MTReflector(self):
+        self.check_standard_config_files(
+            module_name="lsst.ts.mtreflector",
+            schema_name="CONFIG_SCHEMA",
+            sal_name="MTReflector",
+            config_package_root=self.config_package_root,
+        )
