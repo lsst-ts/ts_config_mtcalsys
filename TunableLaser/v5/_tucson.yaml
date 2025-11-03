@@ -1,0 +1,13 @@
+type: Stubbs
+host: lab-laser.tu.lsst.org
+port: 4001
+wavelength:
+  min: 300
+  max: 1250
+optical_configuration: No SCU
+timeout: 1
+temp_ctrl:
+  host: asdf
+  port: 50
+laser_key_turned: on
+  
