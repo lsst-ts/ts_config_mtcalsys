@@ -1,4 +1,4 @@
-type: Main
+type: Stubbs 
 host: laser-control.cp.lsst.org
 port: 4001
 wavelength:
