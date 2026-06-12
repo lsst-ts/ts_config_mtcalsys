@@ -7,6 +7,11 @@ instances:
       hostname: "localhost"
       port: 4001
       serial_number: 115313
+      simulation_enabled_axes:
+        - 1
+        - 2
+        - 3
+        - 4
     target_position_minimum: 0
     target_position_maximum: 25
   - sal_index: 102
