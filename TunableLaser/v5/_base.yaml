@@ -1,4 +1,4 @@
-type: Main
+type: Stubbs
 host: localhost
 port: 4001
 wavelength:
